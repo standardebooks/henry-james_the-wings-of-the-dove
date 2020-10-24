@@ -63,6 +63,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/30059</dc:source>
 		<dc:source>https://books.google.com/books?id=KqtEAAAAYAAJ</dc:source>
 		<dc:source>https://books.google.com/books?id=i6tEAAAAYAAJ</dc:source>
+		<meta property="se:production-notes">The cover image is a Sargent painting of the interior of Palazzo Barbaro, which was the model for "Palazzo Leporelli" in the text.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Wings_of_the_Dove</meta>
@@ -73,11 +74,10 @@
 		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n78091982</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
-		<dc:contributor id="artist">Canaletto</dc:contributor>
-		<meta property="file-as" refines="#artist">Canaletto</meta>
-		<meta property="se:person.name.full-name" refines="#artist">Giovanni Antonio Canal</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Canaletto</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">https://www.worldcat.org/identities/lccn-n79065963</meta>
+		<dc:contributor id="artist">John Singer Sargent</dc:contributor>
+		<meta property="file-as" refines="#artist">Sargent, John Singer</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Singer_Sargent</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n50019335</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">James Adcock</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Adcock, James</meta>
